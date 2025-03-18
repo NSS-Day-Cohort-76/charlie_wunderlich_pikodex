@@ -12,7 +12,6 @@ export const createPikoDex = (database) => {
             <div class="abilities">${database[i].abilities}</div>
             <div class="weakness">${database[i].weakness}</div>
          </div>
-        
 
 
 

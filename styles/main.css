@@ -8,24 +8,32 @@
 #container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    gap: 20px;
+    justify-content: space-between;
     margin-top: 2rem;
     margin-bottom: 3rem;
-    border: 1px solid #200202;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
     padding: 16px;
 }
 
 .piko-card {
-    flex-basis: 25%;
-    margin: 3em;
+    flex: 0 0 calc(33.33% - 20px);
+    box-sizing: border-box;
     border: 1px solid #ccc;
-    padding: 16px;
-    margin: 10px;
     border-radius: 8px;
+    padding: 16px;
+    text-align: center;
 }
 
-.piko-img {
-    width: 100%;
+.piko-card img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    height: auto;
+    display: block;
+    margin: 0 auto;
     border-radius: 1em;
 }
 
