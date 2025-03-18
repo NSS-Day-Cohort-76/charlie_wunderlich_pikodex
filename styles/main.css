@@ -11,11 +11,17 @@
     justify-content: center;
     margin-top: 2rem;
     margin-bottom: 3rem;
+    border: 1px solid #200202;
+    padding: 16px;
 }
 
 .piko-card {
     flex-basis: 25%;
     margin: 3em;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
 }
 
 .piko-img {
@@ -36,7 +42,7 @@
     font-family: "copperplate", fantasy;
     font-size: 1.5em;
 }
-
+/*
 .piko-abilities {
 
 }
@@ -48,3 +54,4 @@
 .piko-weakness {
 
 }
+*/
